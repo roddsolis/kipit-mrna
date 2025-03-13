@@ -1,11 +1,10 @@
 import { Component } from '@angular/core';
 import { RouterModule } from '@angular/router';
-import { NxWelcomeComponent } from './nx-welcome.component';
-
+import { ButtonComponent } from '../../../../libs/kif-components/src/lib/button/button.component';
 @Component({
-  standalone: true,
-  imports: [NxWelcomeComponent, RouterModule],
   selector: 'kipit-mrna-root',
+  standalone: true,
+  imports: [RouterModule, ButtonComponent],
   templateUrl: './app.component.html',
   styleUrl: './app.component.scss',
 })

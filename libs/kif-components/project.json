@@ -2,10 +2,16 @@
   "name": "kif-components",
   "$schema": "../../node_modules/nx/schemas/project-schema.json",
   "sourceRoot": "libs/kif-components/src",
-  "prefix": "kipit-mrna",
+  "prefix": "kif",
   "tags": [],
   "projectType": "library",
   "targets": {
+    "build": {
+      "executor": "@nx/angular:package",
+      "options": {
+        "project": "libs/kif-components/ng-package.json"
+      }
+    },
     "test": {
       "executor": "@nx/jest:jest",
       "outputs": ["{workspaceRoot}/coverage/{projectRoot}"],

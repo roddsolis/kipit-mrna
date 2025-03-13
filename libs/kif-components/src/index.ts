@@ -1,1 +1,1 @@
-export * from './lib/kif-components/kif-components.component';
+export * from './lib/button/button.component';

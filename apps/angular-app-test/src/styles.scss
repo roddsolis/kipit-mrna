@@ -1,1 +1,20 @@
-/* You can add global styles to this file, and also import other style files */
+@import url('https://fonts.googleapis.com/css2?family=Figtree:ital,wght@0,300..900;1,300..900&family=JetBrains+Mono:ital,wght@0,100..800;1,100..800&display=swap');
+@import '../../../styles/variables.scss';
+
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+  shape-rendering: geometricPrecision;
+  text-rendering: geometricPrecision;
+  font-family: 'Figtree', sans-serif;
+}
+
+body {
+  font-optical-sizing: auto;
+  height: 100vh;
+  color: $color-text-primary;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}

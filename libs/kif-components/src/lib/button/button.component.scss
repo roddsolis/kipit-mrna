@@ -1,0 +1,75 @@
+@import url('https://fonts.googleapis.com/css2?family=Figtree:ital,wght@0,300..900;1,300..900&family=JetBrains+Mono:ital,wght@0,100..800;1,100..800&display=swap');
+@import '../../../../../styles/variables.scss';
+
+// propiedades base del botón kipit
+
+button {
+  background-color: $color-surface-default;
+  padding: 1em;
+  border: none;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+// propiedades para jerarquias de botones
+
+.btn-primary {
+  background-color: $color-surface-brand;
+  color: $color-text-primary-inverse;
+}
+.btn-secondary {
+  background-color: $color-surface-default;
+  color: $color-text-primary;
+  border: $border-default-subdued;
+}
+.btn-tertiary {
+  background-color: $color-surface-default;
+  color: $color-text-brand;
+  border: none;
+}
+
+// propiedades para tamaños de botón
+
+.btn-micro {
+  height: 32px;
+  padding-inline: $spacing-horizontal-m;
+  border-radius: $border-radius-container-xs;
+  gap: $spacing-horizontal-xs;
+  font: $font-scale-button-xs;
+}
+.btn-small {
+  height: 40px;
+  padding-inline: $spacing-horizontal-m;
+  border-radius: $border-radius-container-s;
+  gap: $spacing-horizontal-xs;
+  font: $font-scale-button-s;
+}
+.btn-medium {
+  height: 48px;
+  padding-inline: $spacing-horizontal-l;
+  border-radius: $border-radius-container-m;
+  gap: $spacing-horizontal-xs;
+  font: $font-scale-button-m;
+}
+.btn-large {
+  height: 56px;
+  padding-inline: $spacing-horizontal-l;
+  border-radius: $border-radius-container-m;
+  gap: $spacing-horizontal-xs;
+  font: $font-scale-button-l;
+}
+
+// propiedades para alineación de botón
+
+.iconPosition-left {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.iconPosition-right {
+  display: flex;
+  flex-direction: row-reverse;
+  justify-content: center;
+  align-items: center;
+}

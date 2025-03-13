@@ -1,16 +1,16 @@
 import { ComponentFixture, TestBed } from '@angular/core/testing';
-import { KifComponentsComponent } from './kif-components.component';
+import { IcontainerComponent } from './icontainer.component';
 
-describe('KifComponentsComponent', () => {
-  let component: KifComponentsComponent;
-  let fixture: ComponentFixture<KifComponentsComponent>;
+describe('IcontainerComponent', () => {
+  let component: IcontainerComponent;
+  let fixture: ComponentFixture<IcontainerComponent>;
 
   beforeEach(async () => {
     await TestBed.configureTestingModule({
-      imports: [KifComponentsComponent],
+      imports: [IcontainerComponent],
     }).compileComponents();
 
-    fixture = TestBed.createComponent(KifComponentsComponent);
+    fixture = TestBed.createComponent(IcontainerComponent);
     component = fixture.componentInstance;
     fixture.detectChanges();
   });

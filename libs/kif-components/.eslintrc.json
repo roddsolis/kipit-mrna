@@ -21,7 +21,7 @@
           "error",
           {
             "type": "element",
-            "prefix": "kipit-mrna",
+            "prefix": "kif",
             "style": "kebab-case"
           }
         ]

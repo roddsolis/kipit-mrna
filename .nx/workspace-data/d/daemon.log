@@ -1,0 +1,24 @@
+[NX v20.5.0 Daemon Server] - 2025-03-13T04:31:28.839Z - Started listening on: \\.\pipe\nx\C:\Users\Rodri\AppData\Local\Temp\5bec1b3a1ecf99954060\d.sock
+[NX v20.5.0 Daemon Server] - 2025-03-13T04:31:28.842Z - [WATCHER]: Subscribed to changes within: C:\Users\Rodri\OneDrive\Escritorio\kipit-mrna (native)
+[NX v20.5.0 Daemon Server] - 2025-03-13T04:31:28.850Z - Established a connection. Number of open connections: 1
+[NX v20.5.0 Daemon Server] - 2025-03-13T04:31:28.850Z - Established a connection. Number of open connections: 2
+[NX v20.5.0 Daemon Server] - 2025-03-13T04:31:28.852Z - Closed a connection. Number of open connections: 1
+[NX v20.5.0 Daemon Server] - 2025-03-13T04:31:28.854Z - [REQUEST]: Responding to the client. Shutdown initiated
+[NX v20.5.0 Daemon Server] - 2025-03-13T04:31:28.855Z - Done responding to the client Shutdown initiated
+[NX v20.5.0 Daemon Server] - 2025-03-13T04:31:28.855Z - Handled FORCE_SHUTDOWN. Handling time: 0. Response time: 1.
+[NX v20.5.0 Daemon Server] - 2025-03-13T04:31:28.855Z - Closed a connection. Number of open connections: 0
+[NX v20.5.0 Daemon Server] - 2025-03-13T04:31:28.856Z - [WATCHER]: Stopping the watcher for C:\Users\Rodri\OneDrive\Escritorio\kipit-mrna (sources)
+[NX v20.5.0 Daemon Server] - 2025-03-13T04:31:28.856Z - [WATCHER]: Stopping the watcher for C:\Users\Rodri\OneDrive\Escritorio\kipit-mrna (outputs)
+[NX v20.5.0 Daemon Server] - 2025-03-13T04:31:28.857Z - Server stopped because: "Request to shutdown"
+[NX v20.5.0 Daemon Server] - 2025-03-13T04:32:24.208Z - Started listening on: \\.\pipe\nx\C:\Users\Rodri\AppData\Local\Temp\5bec1b3a1ecf99954060\d.sock
+[NX v20.5.0 Daemon Server] - 2025-03-13T04:32:24.210Z - [WATCHER]: Subscribed to changes within: C:\Users\Rodri\OneDrive\Escritorio\kipit-mrna (native)
+[NX v20.5.0 Daemon Server] - 2025-03-13T04:32:24.216Z - Established a connection. Number of open connections: 1
+[NX v20.5.0 Daemon Server] - 2025-03-13T04:32:24.217Z - Established a connection. Number of open connections: 2
+[NX v20.5.0 Daemon Server] - 2025-03-13T04:32:24.219Z - Closed a connection. Number of open connections: 1
+[NX v20.5.0 Daemon Server] - 2025-03-13T04:32:24.221Z - [REQUEST]: Responding to the client. Shutdown initiated
+[NX v20.5.0 Daemon Server] - 2025-03-13T04:32:24.222Z - Done responding to the client Shutdown initiated
+[NX v20.5.0 Daemon Server] - 2025-03-13T04:32:24.222Z - Handled FORCE_SHUTDOWN. Handling time: 0. Response time: 1.
+[NX v20.5.0 Daemon Server] - 2025-03-13T04:32:24.222Z - Closed a connection. Number of open connections: 0
+[NX v20.5.0 Daemon Server] - 2025-03-13T04:32:24.223Z - [WATCHER]: Stopping the watcher for C:\Users\Rodri\OneDrive\Escritorio\kipit-mrna (sources)
+[NX v20.5.0 Daemon Server] - 2025-03-13T04:32:24.223Z - [WATCHER]: Stopping the watcher for C:\Users\Rodri\OneDrive\Escritorio\kipit-mrna (outputs)
+[NX v20.5.0 Daemon Server] - 2025-03-13T04:32:24.223Z - Server stopped because: "Request to shutdown"
