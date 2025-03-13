@@ -1,0 +1,58 @@
+{
+  "name": "design-system-docs",
+  "$schema": "../../node_modules/nx/schemas/project-schema.json",
+  "sourceRoot": "apps/design-system-docs",
+  "projectType": "application",
+  "type": "commonjs",
+  "targets": {
+    "build": {
+      "executor": "@nx/next:build",
+      "outputs": ["{options.outputPath}"],
+      "defaultConfiguration": "production",
+      "options": {
+        "outputPath": "dist/apps/design-system-docs"
+      },
+      "configurations": {
+        "development": {
+          "outputPath": "apps/design-system-docs"
+        },
+        "production": {}
+      }
+    },
+    "serve": {
+      "executor": "@nx/next:server",
+      "defaultConfiguration": "development",
+      "options": {
+        "buildTarget": "design-system-docs:build",
+        "dev": true
+      },
+      "configurations": {
+        "development": {
+          "buildTarget": "design-system-docs:build:development",
+          "dev": true
+        },
+        "production": {
+          "buildTarget": "design-system-docs:build:production",
+          "dev": false
+        }
+      }
+    },
+    "export": {
+      "executor": "@nx/next:export",
+      "options": {
+        "buildTarget": "design-system-docs:build:production"
+      }
+    },
+    "test": {
+      "executor": "@nx/jest:jest",
+      "outputs": ["{workspaceRoot}/coverage/{projectRoot}"],
+      "options": {
+        "jestConfig": "apps/design-system-docs/jest.config.ts"
+      }
+    },
+    "lint": {
+      "executor": "@nx/eslint:lint"
+    }
+  },
+  "tags": []
+}
