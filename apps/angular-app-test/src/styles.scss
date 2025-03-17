@@ -9,6 +9,16 @@
   text-rendering: geometricPrecision;
   font-family: 'Figtree', sans-serif;
 }
+svg {
+  display: block;
+  width: fit-content;
+  height: auto;
+  object-fit: contain;
+  max-width: 48px;
+  max-height: 48px;
+  min-width: 16px;
+  min-height: 16px;
+}
 
 body {
   font-optical-sizing: auto;

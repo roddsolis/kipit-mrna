@@ -1,6 +1,6 @@
 import { Component } from '@angular/core';
 import { RouterModule } from '@angular/router';
-import { ButtonComponent } from '../../../../libs/kif-components/src/lib/button/button.component';
+import { ButtonComponent } from '@kipit-mrna/kif-components';
 @Component({
   selector: 'kipit-mrna-root',
   standalone: true,

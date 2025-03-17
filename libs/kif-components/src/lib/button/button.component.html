@@ -1,4 +1,11 @@
-<button [ngClass]="getButtonClasses()">
-  <kif-icontainer></kif-icontainer>
-  {{ buttonText }}
-</button>
+<ng-container>
+  <button [ngClass]="getButtonClasses()">
+    <kif-icontainer
+      *ngIf="icon"
+      [icon]="icon"
+      [size]="iconSize"
+      [strokeWidth]="iconStrokeWidth"
+    ></kif-icontainer>
+    <span>{{ buttonText }}</span>
+  </button>
+</ng-container>

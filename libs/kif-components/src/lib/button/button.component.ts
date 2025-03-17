@@ -10,15 +10,15 @@ import { IcontainerComponent } from '../icontainer/icontainer.component';
   styleUrl: './button.component.scss',
 })
 export class ButtonComponent {
-  @Input() buttonText!: string;
-  ngOnInit() {
-    if (!this.buttonText) {
-      this.buttonText = 'Button Text';
-    }
-  }
-  @Input() iconPosition = 'left';
+  @Input() buttonText = 'Button';
+  @Input() iconPosition: 'left' | 'right' = 'left';
   @Input() buttonType = 'primary';
   @Input() size = 'small';
+
+  // Inputs para configurar el icono
+  @Input() icon?: string;
+  @Input() iconSize = 24;
+  @Input() iconStrokeWidth = 2;
 
   getButtonClasses() {
     return {
